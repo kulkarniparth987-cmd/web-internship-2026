@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<h1>HTML Formatting Tags Demo</h1>
+<p> This is <stong>bold (strong)</stong>and this is <em> italic (em)</em>.</p>
+<p>The word <u>underlined</u> has a line below it.</p>
+<p>Price: <del> $2999</del> <strong>$1499</strong></p>
+<p>This keyword is <mark>highlighted</mark> in yellow.</p>
+<p>Einstein: E = mc<sup>2</sup></p>
+<p>Water formula: H<sub>2</sub>0</p>
+<p>We are building a <abbr tittle="MongoDB Express Reaot Node">MERN</abbr> app.</p>
+<p>From the W3C documentation:</p>
+<blockquote>
+    HTML is the standard markup Language for web pages.With HTML you can create your own websites
+
+</blockquote>
+<p> Use the <code>console.log()</code> function to debug.</p>
+<p><small>0 2026 ProAzure Software Solution Limited.All rights reserved.</small></p>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+#HOMEwork Q1 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page - Shiva Gupta</title>
+</head>
+<body>
+
+    <h1>Shiva Gupta</h1>
+
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#connect">Connect</a>
+    </nav>
+
+    <hr>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <a href="https://www.google.com" target="_blank">
+            <img src=C:\Users\sg017\OneDrive\Pictures\Uploads\IMG-20251201-WA0051.jpg
+                 alt="Profile Image"
+                 width="300">
+        </a>
+
+        <h3>Introduction</h3>
+        <p>
+            Hello! My name is <strong>Shiva Gupta</strong>. I am a Diploma
+            Computer Engineering student. I am learning <mark>Web Development</mark>
+            and improving my coding skills every day.
+        </p>
+
+        <p>
+            My old goal was <del>only watching tutorials</del>, but now my goal is
+            to practice and build real projects.
+        </p>
+
+        <p>
+            I am currently studying in 4<sup>th</sup> semester.
+        </p>
+
+        <p>
+            <abbr title="HyperText Markup Language">HTML</abbr> is the basic
+            structure language of a webpage.
+        </p>
+
+        <blockquote>
+            Practice makes a person better in coding.
+            <cite> - </cite>
+        </blockquote>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <h3>Technical Skills</h3>
+        <p>
+            I am learning HTML, CSS, JavaScript, Java, and GitHub.
+        </p>
+
+        <h3>Personal Skills</h3>
+        <p>
+            I have discipline, consistency, communication skills, and a learning mindset.
+        </p>
+
+        <p>
+            Visit my favourite learning website:
+            <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="connect">
+        <h2>Connect</h2>
+
+        <h3>Contact Details</h3>
+
+        <p>
+            Email me:
+            <a href="mailto:sg0176734@gmail.com">sg0176734@gmail.com</a>
+        </p>
+
+        <p>
+            Call me:
+            <a href="tel:+91 9670822767">+91 9670822767 </a>
+        </p>
+
+        <p>
+            Go back to:
+            <a href="#about">About Section</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <small>
+            &copy; 2026 Shiva Gupta. All rights reserved.
+        </small>
+    </footer>
+<!-- ========================= -->
+<!-- PART B - THEORY COMMENTS -->
+<!-- ========================= -->
+
+<!--
+Q3: Difference between Tag, Element and Attribute
+
+Tag:
+A tag is a keyword enclosed in angle brackets.
+Example: <p>
+
+Element:
+An element consists of an opening tag, content, and a closing tag.
+Example: <p>Hello World</p>
+
+Attribute:
+An attribute provides additional information about an element.
+Example: <img src="photo.jpg" alt="My Photo">
+-->
+
+<!--
+Q4: Difference between div and span
+
+<div> is a block-level element used to group large sections of content.
+It starts on a new line and takes full width.
+
+<span> is an inline element used to style small pieces of text.
+It does not start on a new line.
+-->
+
+<!--
+Q5: Why use rel="noopener noreferrer" with target="_blank" ?
+
+When target="_blank" opens a new tab, the new page can access
+the original page using window.opener.
+
+rel="noopener noreferrer" prevents this security risk,
+protects user privacy, and prevents tabnabbing attacks.
+-->
+
+<!--
+Q6: LinkedIn Inspection
+
+Example H1:
+<h1>Welcome to your professional community</h1>
+
+Example H2:
+<h2>Join your colleagues, classmates, and friends on LinkedIn</h2>
+
+Example Anchor:
+<a href="https://www.linkedin.com/login">Sign In</a>
+
+Common Anchor Attributes:
+href
+class
+target
+data-tracking-control-name
+
+Most LinkedIn links do not use rel="noopener"
+unless they open in a new tab.
+-->
+
+<!--
+Q7: Difference between HTML width attribute and CSS width
+
+HTML Width:
+<img src="photo.jpg" width="300">
+
+CSS Width:
+img {
+    width: 300px;
+}
+
+The width attribute is written directly in HTML.
+CSS width is written in CSS and is preferred in modern web development.
+-->
+
+<!-- ========================= -->
+<!-- BONUS CHALLENGE -->
+<!-- ========================= -->
+
+
+ <figure>
+    <img src=C:\Users\sg017\OneDrive\Pictures\Uploads\IMG-20251201-WA0051.jpg
+         alt="Shiva Gupta"
+         width="300">
+
+    <figcaption>
+        Shiva Gupta - Gym Fitness Journey
+    </figcaption>
+</figure>   
+</body>
+</html>
+
+
+
+
+#Q2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting Tags Test</title>
+</head>
+<body>
+
+    <h1>HTML Formatting Tags Demonstration</h1>
+
+    <p>
+        I am learning <strong>Web Development</strong> during my internship.
+    </p>
+
+    <p>
+        I am <em>very excited</em> to build websites.
+    </p>
+
+    <p>
+        This is a <b>bold text</b> example.
+    </p>
+
+    <p>
+        This is an <i>italic text</i> example.
+    </p>
+
+    <p>
+        This sentence contains an <u>underlined word</u>.
+    </p>
+
+    <p>
+        Learning <mark>HTML and CSS</mark> is important for web development.
+    </p>
+
+    <p>
+        My old routine was <del>wasting time on social media</del>.
+    </p>
+
+    <p>
+        My new routine is <ins>practicing coding daily</ins>.
+    </p>
+
+    <p>
+        <small>This text is displayed in a smaller font size.</small>
+    </p>
+
+    <p>
+        I am studying in 4<sup>th</sup> semester.
+    </p>
+
+    <p>
+        Water is represented as H<sub>2</sub>O.
+    </p>
+
+    <p>
+        <abbr title="HyperText Markup Language">HTML</abbr> is used to create web pages.
+    </p>
+
+    <blockquote>
+        Success in programming comes from consistent practice and patience.
+    </blockquote>
+
+    <p>
+        My teacher said,
+        <q>Practice coding every day to improve your skills.</q>
+    </p>
+
+    <p>
+        <cite>Clean Code</cite> is a famous book for programmers.
+    </p>
+
+    <p>
+        To display text on screen in Java, we use:
+        <code>System.out.println("Hello World");</code>
+    </p>
+
+</body>
+</html>
